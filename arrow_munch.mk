@@ -14,7 +14,10 @@ $(call inherit-product, vendor/arrow/config/common.mk)
 # Inherit from device makefile
 $(call inherit-product, device/xiaomi/munch/device.mk)
 
-DEVICE_MAINTAINER := madmax7896
+# ArrowOS Additional Flags
+DEVICE_MAINTAINER := darzdelouise
+DEVICE_MAINTAINER_LINK := https://t.me/darzdelouise
+ARROW_GAPPS := true
 
 PRODUCT_NAME := arrow_munch
 PRODUCT_DEVICE := munch
