@@ -41,6 +41,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/keylayout/,$(TARGET_COPY_OUT_VENDOR)/usr/keylayout)
 
+# Notch bar killer
+PRODUCT_PACKAGES += \
+    NotchBarKiller
+    
 # Private Keys
 include vendor/arrow/signing/keys/keys.mk
 
