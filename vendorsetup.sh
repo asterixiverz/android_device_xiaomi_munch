@@ -15,5 +15,11 @@ echo -e "\e[1;33mwarning:\e[0m \e[1mCloning Vendor SM8250 Common Tree\e[0m"
 echo -e "\e[1;33mwarning:\e[0m \e[1mCloning Hardware Dependencies for Xiaomi Devices\e[0m"
 	git clone https://github.com/madmax7896/android_hardware_xiaomi -b arrow-13.1 hardware/xiaomi
 
+echo -e "\e[1;33mwarning:\e[0m \e[1mCloning Device-MIUI Camera\e[0m"
+	git clone https://github.com/madmax7896/device_xiaomi_munch-miuicamera.git -b arrow-13.1 device/xiaomi/munch-miuicamera
+
+echo -e "\e[1;33mwarning:\e[0m \e[1mCloning Vendor-MIUI Camera\e[0m"
+	git clone https://gitlab.com/reloadedcaf/vendor_xiaomi_munch-miuicamera -b t vendor/xiaomi/munch-miuicamera
+
 echo -e "\e[1;33mwarning:\e[0m \e[1mCloning Private-Dev Keys\e[0m"
 	git clone https://github.com/asterixiverz/vendor_sign -b master vendor/arrow/signing/keys    
